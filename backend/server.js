@@ -8,8 +8,8 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: true,
-  credentials: true 
+  origin: 'https://af-frontend-b165.onrender.com', // frontend URL
+  credentials: true
 }));
 
 // Connect MongoDB
