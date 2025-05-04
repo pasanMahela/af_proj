@@ -26,9 +26,9 @@ export default function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2 text-2xl font-extrabold text-indigo-600 dark:text-indigo-400 hover:opacity-80 transition">
+        <Link to="/" className="flex items-center gap-2 text-4xl font-extrabold text-indigo-600 dark:text-indigo-400 hover:opacity-80 transition">
           <img className='w-12' src="world.png" alt="logo" />
-          <span>RestCountries</span>
+          <span>Locatia</span>
         </Link>
 
         {/* Desktop Nav */}
